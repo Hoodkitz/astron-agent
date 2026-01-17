@@ -15,11 +15,12 @@ include makefiles/python.mk
 include makefiles/git.mk
 include makefiles/common.mk
 include makefiles/comment-check.mk
-
+überprüfe den growmaster
 # =============================================================================
 # Core command declarations
 # =============================================================================
-.PHONY: help setup check test build push clean status info lint ci hooks
+.PHONY: help se
+tup check test build push clean status info lint ci hooks
 
 # =============================================================================
 # Tier 1: Daily Core Commands (7) - These are all you need to remember!
